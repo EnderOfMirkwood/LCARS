@@ -1,3 +1,248 @@
-body {
-  background-color: black;
+/*Animations*/
+@keyframes alertButton {
+    0% {background-color:black;}
+    50% {background-color: red;}
+    100% {background-color: black;}
+}
+@keyframes standard-status {
+    0% {background-color: black;}
+    50% {background-color: white;}
+    100% {background-color: black;}
+}
+@keyframes urgent-tng-orange {
+    0% {background-color: black;}
+    50% {background-color: darkorange;}
+    100%{background-color: black;}
+}
+/*Border & Top*/
+.tng-top-corner {
+    background-color:darkorange;
+    width: 60px;
+    height: 60px;
+    border-top-left-radius: 50px;
+}
+.tng-border {
+    background-color: darkorange;
+    width: 1235px;
+    height: 60px;
+}
+.tng-bottom-corner {
+    background-color:darkorange;
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 50px;
+}
+/*Containers*/
+.containerfortop {
+    width: 1300px;
+    background-color:black;
+    margin: auto;
+}
+.containerhomepage {
+    width: 1300px;
+    background-color:black;
+    margin: auto;
+}
+/*Buttons*/
+
+.left-tall-button-orange {
+    background-color: darkorange;
+    width: 60px;
+    height: 100px;
+}
+.left-short-button-orange {
+    background-color: darkorange;
+    width: 60px;
+    height: 70px;
+}
+.left-tall-button-lightblue {
+    background-color: rgba(162, 218, 226, 0.966);
+    width: 60px;
+    height: 100px;
+} 
+.left-short-button-lightblue {
+    background-color: rgba(162, 218, 226, 0.966);
+    width: 60px;
+    height:70px;
+}
+.left-tall-button-darkblue {
+background-color: blue;
+width: 60px;
+height: 100px;
+}
+.left-short-button-darkblue {
+    background-color: blue;
+    width: 60px;
+    height: 70px;
+}
+.left-huge-button-orange {
+    background-color: darkorange;
+    width: 60px;
+    height: 230px
+}
+.capsule-button-orange {
+    background-color: darkorange;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+.capsule-button-lightblue {
+    background-color: rgba(162, 218, 226, 0.966);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+.capsule-button-darkblue {
+    background-color: blue;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+.half-capsule-orange-left {
+    background-color: darkorange;
+    width: 35px;
+    height: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.half-capsule-orange-right {
+    background-color: darkorange;
+    width: 35px;
+    height: 30px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.half-capsule-left-orange-cap {
+    background-color: darkorange;
+    width: 35;
+    height: 30;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.half-capsule-text {
+    color: darkorange;
+}
+/*Alert theme */
+.alert-button {
+    animation-name: alertButton;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 32px;
+  }
+  .alert-leftbutton-short-red {
+    background-color: red;
+    width: 60px;
+    height:70px;
+}
+    .alert-leftbutton-short-white {
+        background-color: white;
+        width: 60px;
+        height: 70px;
+    }
+.alert-leftbutton-tall-red {
+    background-color: red;
+    width: 60px;
+    height: 100px;
+}
+.alert-leftbutton-tall-white {
+    background-color: white;
+    width: 60px;
+    height: 100px;
+
+}
+.alert-capsulebutton-white {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+.alert-standardstatusbutton {
+    animation-name: standard-status;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+.alert-leftbutton-huge-red {
+    background-color: red;
+    width: 60px;
+    height: 230px
+}
+.alert-leftbutton-huge-white{
+    background-color: white;
+    width: 60px;
+    height: 230px
+}
+.alert-top-corner {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-top-left-radius: 50px;
+}
+.alert-bottom-corner {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 50px;
+}
+.alert-border {   
+    background-color: red;
+    width: 1235px;
+    height: 60px;
+}
+    /*Spacers*/
+.spacer1 {
+    background-color:black;
+    width: 1px;
+    height: 5px;
+}
+.vertical-spacer {
+    background-color: black;
+    width:5px;
+    height: 1px;
+}
+.homepagebottomspacer {
+    background-color: black;
+    width: 1px;
+    height: 240px;
 }
